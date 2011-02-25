@@ -6,6 +6,7 @@ subprojects {
 	}
 	
 	dependencies {
+		compile 'org.rxtx:rxtx:2.+'
 		testCompile 'junit:junit:4.+'
 	}
 }
