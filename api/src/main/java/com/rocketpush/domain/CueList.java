@@ -19,7 +19,7 @@ public class CueList {
 	}
 
 	public void addCue(Cue cue) {
-		listOfCues.add(cue);
+		this.listOfCues.add(cue);
 	}
 
 	public void addCues(Collection<Cue> cues) {
