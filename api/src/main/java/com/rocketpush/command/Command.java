@@ -2,6 +2,8 @@ package com.rocketpush.command;
 
 import java.util.Arrays;
 
+import com.google.common.primitives.UnsignedBytes;
+
 public class Command {
 	
     private final int[] value;
@@ -32,7 +34,7 @@ public class Command {
         int[] temp = new int[bytes.length];
 		
         for(int i = 0; i < bytes.length; i++) {
-            temp[i] = (int) bytes[i];
+        	temp[i] = UnsignedBytes.toInt(bytes[i]);
         }
 		
         return temp;
