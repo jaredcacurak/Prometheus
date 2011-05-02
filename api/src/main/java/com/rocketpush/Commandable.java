@@ -4,12 +4,13 @@ import com.rocketpush.domain.Cue;
 import com.rocketpush.domain.CueList;
 import com.rocketpush.domain.Slave;
 import com.rocketpush.domain.Time;
+import com.rocketpush.domain.TimeStamp;
 
 public interface Commandable {
 
 	void reset(Slave slave);
 
-	void fireCue(Slave slave, CueList cues);
+	void fireCue(Slave slave, TimeStamp timeStamp, CueList cues);
 
 	void testCue(Slave slave, Cue cue);
 
@@ -23,11 +24,11 @@ public interface Commandable {
 	
 	void armSlave(Slave slave);
 
-	void startShow();
+	void startShow(TimeStamp timeStamp);
 
-	void endShow();
+	void endShow(TimeStamp timeStamp);
 
-	void runSync();
+	void runSync(TimeStamp timeStamp);
 	
 	void requestSlaveStatus(Slave slave);
 	
