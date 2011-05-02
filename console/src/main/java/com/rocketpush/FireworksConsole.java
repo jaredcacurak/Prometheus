@@ -8,7 +8,6 @@ import com.rocketpush.domain.Slave;
 import com.rocketpush.domain.Time;
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class FireworksConsole
@@ -24,7 +23,7 @@ public class FireworksConsole
       console.comm = new SerialCommunication(args[0]);
       console.launcher = new Launcher(console.comm);
 
-      System.out.println("Fire away! v.0.1.20110104");
+      System.out.println("Fire away! v.0.1.20110502");
       if (args.length == 1) console.interactiveMode();
       else if ((args.length == 2) || (args.length == 3)) console.runScript(args); 
     }
@@ -64,14 +63,14 @@ public class FireworksConsole
   private void evalute(String value) {
     String regex = ":";
     if (value.equals("sync")) {
-      this.launcher.runSync();
+      this.launcher.runSync(null);
     } else if (value.equals("start show")) {
-      this.launcher.startShow();
+      this.launcher.startShow(null);
     } else if (value.equals("end show")) {
-      this.launcher.endShow();
+      this.launcher.endShow(null);
     } else if (value.startsWith("fire cue")) {
       String[] values = value.split(regex);
-      this.launcher.fireCue(slaveFor(values[1]), cueListFor(values));
+      this.launcher.fireCue(slaveFor(values[1]), null, cueListFor(values));
     } else if (value.startsWith("test cue")) {
       String[] values = value.split(regex);
       this.launcher.testCue(slaveFor(values[1]), cueFor(values[2]));

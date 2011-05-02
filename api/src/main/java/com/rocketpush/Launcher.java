@@ -1,14 +1,19 @@
 package com.rocketpush;
 
-import static com.rocketpush.command.CommandFactory.build;
 import static com.rocketpush.command.CommandValue.*;
-import com.rocketpush.domain.*;
+import static com.rocketpush.command.CommandFactory.build;
+import com.rocketpush.domain.Cue;
+import com.rocketpush.domain.CueList;
+import com.rocketpush.domain.Slave;
+import com.rocketpush.domain.Time;
+import com.rocketpush.domain.TimeStamp;
 import com.rocketpush.command.Command;
 import com.rocketpush.communication.Communication;
 
 public class Launcher implements Commandable {
 
 	private final Communication communication;
+	private final Slave allSlaves = new Slave(0);
 
 	public Launcher(Communication comm) {
 		this.communication = comm;
@@ -21,8 +26,8 @@ public class Launcher implements Commandable {
 	}
 
 	@Override
-	public void fireCue(Slave slave, CueList cues) {
-		Command command = build(FIRE_CUE, slave, cues);
+	public void fireCue(Slave slave, TimeStamp timeStamp, CueList cues) {
+		Command command = build(FIRE_CUE, slave, timeStamp, cues);
 		this.communication.send(command);
 	}
 
@@ -33,23 +38,20 @@ public class Launcher implements Commandable {
 	}
 
 	@Override
-	public void startShow() {
-		Slave allSlaves = new Slave(0);
-		Command command = build(START_SHOW, allSlaves);
+	public void startShow(TimeStamp timeStamp) {
+		Command command = build(START_SHOW, allSlaves, timeStamp);
 		this.communication.send(command);
 	}
 
 	@Override
-	public void endShow() {
-		Slave allSlaves = new Slave(0);
-		Command command = build(END_SHOW, allSlaves);
+	public void endShow(TimeStamp timeStamp) {
+		Command command = build(END_SHOW, allSlaves, timeStamp);
 		this.communication.send(command);
 	}
 
 	@Override
-	public void runSync() {
-		Slave allSlaves = new Slave(0);
-		Command command = build(RUN_SYNC, allSlaves);
+	public void runSync(TimeStamp timeStamp) {
+		Command command = build(RUN_SYNC, allSlaves, timeStamp);
 		this.communication.send(command);
 	}
 
