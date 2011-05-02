@@ -16,9 +16,10 @@ public enum CommandValue {
 	DISARM_SLAVE(0x88), 
 	ARM_SLAVE(0x89),
 	REQUEST_SLAVE_STATUS(0x8A),
-	START_SHOW(0x8B),
-	END_SHOW(0x8C),
-	RUN_SYNC(0x8D);
+	REQUEST_BATTERY_LEVEL(0x8B),
+	START_SHOW(0x8C),
+	END_SHOW(0x8D),
+	RUN_SYNC(0x8E);
 		
 	private final int value;
 	
