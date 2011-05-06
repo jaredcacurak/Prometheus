@@ -32,5 +32,7 @@ public interface Commandable {
 	
 	void requestSlaveStatus(Slave slave);
 	
+	void requestBatteryLevel(Slave slave);
+	
 	void setCueFireTime(Slave slave, Time time);
 }

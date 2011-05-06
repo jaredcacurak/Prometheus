@@ -90,6 +90,12 @@ public class Launcher implements Commandable {
 		Command command = build(REQUEST_SLAVE_STATUS, slave);
 		this.communication.send(command);
 	}
+	
+	@Override
+	public void requestBatteryLevel(Slave slave) {
+		Command command = build(REQUEST_BATTERY_LEVEL, slave);
+		this.communication.send(command);
+	}
 
 	@Override
 	public void setCueFireTime(Slave slave, Time time) {
