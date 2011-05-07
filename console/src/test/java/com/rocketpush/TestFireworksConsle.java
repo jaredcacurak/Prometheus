@@ -52,7 +52,11 @@ public class TestFireworksConsle {
 	
 	@Test
 	public void fire_more_than_one_cue() {
+<<<<<<< HEAD
 		console.evalute("fire cue:2:1:2:3:4:2:1:3");
+=======
+		console.evalute("fire cue:2:1:2:3:4:1:2:3");
+>>>>>>> 80213e591a3b43b1a2fc74d685d4575d15d68f4b
 		
 		int[] expected = { 0x82, 0x7D, 0x02, 0xFD, 0x01, 0xFE, 0x02, 0xFD, 0x03, 0xFC, 0x04, 0xFB, 0x03, 0xFC, 0x02, 0xFD, 0x01, 0xFE, 0x00, 0xFF };
 		assertThat(comm.getLastCommand(), is(expected));
@@ -118,7 +122,11 @@ public class TestFireworksConsle {
 	public void request_slave_status() {
 		console.evalute("request slave status:14");
 		
+<<<<<<< HEAD
 		int[] expected = { 0x8A, 0x75, 0x0E, 0xF1 };
+=======
+		int[] expected = { 0x8A, 0x75, 0x0E, 0xF1};
+>>>>>>> 80213e591a3b43b1a2fc74d685d4575d15d68f4b
 		assertThat(comm.getLastCommand(), is(expected));
 	}
 	
