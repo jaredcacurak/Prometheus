@@ -114,10 +114,11 @@ public class TestFireworksConsle {
 		assertThat(comm.getLastCommand(), is(expected));
 	}
 	
+	
 	@Test
 	public void request_slave_status() {
 		console.evalute("request slave status:14");
-		
+
 		int[] expected = { 0x8A, 0x75, 0x0E, 0xF1 };
 		assertThat(comm.getLastCommand(), is(expected));
 	}
