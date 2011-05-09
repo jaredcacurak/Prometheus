@@ -25,16 +25,17 @@ public class FireworksConsole {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Fire away! v.0.1.20110509");
 		FireworksConsole console = new FireworksConsole();
 		try {
 			console.comm = new SerialCommunication(args[0]);
 			console.launcher = new Launcher(console.comm);
 
-			System.out.println("Fire away! v.0.1.20110502");
-			if (args.length == 1)
+			if (args.length == 1) {
 				console.interactiveMode();
-			else if ((args.length == 2) || (args.length == 3))
+			} else if ((args.length == 2) || (args.length == 3)) {
 				console.runScript(args);
+			}
 		} catch (Exception e) {
 			System.out.println("Bad mojo: " + e);
 		} finally {
@@ -80,8 +81,7 @@ public class FireworksConsole {
 			this.launcher.endShow(forTimeStamp(values, 1));
 		} else if (value.startsWith("fire cue")) {
 			String[] values = value.split(regex);
-			this.launcher.fireCue(slaveFor(values[1]), forTimeStamp(values, 2),
-					cueListFor(values));
+			this.launcher.fireCue(slaveFor(values[1]), forTimeStamp(values, 2), cueListFor(values));
 		} else if (value.startsWith("test cue")) {
 			String[] values = value.split(regex);
 			this.launcher.testCue(slaveFor(values[1]), cueFor(values[2]));
