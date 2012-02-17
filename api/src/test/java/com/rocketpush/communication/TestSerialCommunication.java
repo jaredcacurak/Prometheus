@@ -10,6 +10,7 @@ import com.rocketpush.Launcher;
 import com.rocketpush.domain.Cue;
 import com.rocketpush.domain.CueList;
 import com.rocketpush.domain.Slave;
+import com.rocketpush.domain.TimeStamp;
 
 public class TestSerialCommunication {
 	static Commandable launcher;
@@ -33,22 +34,25 @@ public class TestSerialCommunication {
 	@Test
 	@Ignore
 	public void run_sync_command() {
-		launcher.runSync();		
+		TimeStamp timeStamp = new TimeStamp(0, 0, 0, 0);
+		launcher.runSync(timeStamp);		
 	}
 	
 	@Test
 	@Ignore
 	public void run_start_show_command() {
-		launcher.startShow();
+		TimeStamp timeStamp = new TimeStamp(0, 0, 0, 0);
+		launcher.startShow(timeStamp);
 	}
 	
 	@Test
 	@Ignore
 	public void run_fire_cue_command_for_slave_one_cue_one() {
 		Slave slave = new Slave(1);
+		TimeStamp timeStamp = new TimeStamp(0, 0, 0, 0);
 		CueList cues = new CueList();
 		cues.addCue(new Cue(1));
-		launcher.fireCue(slave, cues);
+		launcher.fireCue(slave, timeStamp, cues);
 	}
 	
 	@AfterClass
