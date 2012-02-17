@@ -11,6 +11,7 @@ import com.rocketpush.command.Command;
 import com.rocketpush.command.interpreter.CommandInterpreter;
 
 import gnu.io.*;
+import static gnu.io.SerialPort.*;
 
 public final class SerialCommunication implements Communication {
 	
@@ -74,7 +75,7 @@ public final class SerialCommunication implements Communication {
 		String ownersName = "Fireworks";
 		int time = 2000;
 		SerialPort openPort = (SerialPort) portIdentifier.open(ownersName, time);
-		openPort.setSerialPortParams(9600, SerialPort.DATABITS_8, SerialPort.STOPBITS_1, SerialPort.PARITY_NONE);
+		openPort.setSerialPortParams(9600, DATABITS_8, STOPBITS_1, PARITY_NONE);
 		
 		return openPort;
 	}
