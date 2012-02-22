@@ -1,27 +1,27 @@
-subprojects {
-	apply plugin: 'java'
-	apply plugin: 'eclipse'
-	
-	repositories {
-		mavenCentral()
-	}
-	
-	dependencies {
-		compile 'org.rxtx:rxtx:2.+', 'com.google.guava:guava:r08'
-		testCompile 'junit:junit:4.+'
-	}
+allprojects {
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+    
+    repositories {
+        mavenCentral()
+    }
+    
+    dependencies {
+        compile 'org.rxtx:rxtx:2.+', 'com.google.guava:guava:r09'
+        testCompile 'junit:junit:4.+'
+    }
 }
 
 project(':console') {
-	dependencies {
-	    compile project(':api')
+    dependencies {
+        compile project(':api')
     }
-	
-	jar {
-	    manifest {
-	        attributes("Implementation-Title": "Gradle", "Implementation-Version": "1.0", "Main-Class": "com.rocketpush.FireworksConsole")
-	    }
-	}	
+    
+    jar {
+        manifest {
+            attributes("Implementation-Title": "Gradle", "Implementation-Version": "1.0", "Main-Class": "com.rocketpush.FireworksConsole")
+        }
+    }   
 }
 
 dependsOnChildren()
