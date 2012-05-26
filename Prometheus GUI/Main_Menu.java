@@ -91,25 +91,51 @@ public class Main_Menu extends JFrame {
 		JButton btnExit = new JButton("EXIT");
 		btnExit.setFont(new Font("Arial Black", Font.BOLD, 12));
 		btnExit.setBackground(UIManager.getColor("inactiveCaptionText"));
+		
+		JLabel lblCurrentWaveFile = new JLabel("Current Wave File: ");
+		lblCurrentWaveFile.setForeground(Color.BLACK);
+		lblCurrentWaveFile.setFont(new Font("Arial Black", Font.BOLD, 12));
+		
+		JLabel lblCurrentScriptFile = new JLabel("Current Script File: ");
+		lblCurrentScriptFile.setForeground(Color.BLACK);
+		lblCurrentScriptFile.setFont(new Font("Arial Black", Font.BOLD, 12));
+		
+		JLabel lblempty = new JLabel("(empty)");
+		lblempty.setForeground(Color.BLACK);
+		lblempty.setBackground(Color.WHITE);
+		
+		JLabel label = new JLabel("(empty)");
+		label.setForeground(Color.BLACK);
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
-			gl_contentPane.createParallelGroup(Alignment.TRAILING)
+			gl_contentPane.createParallelGroup(Alignment.LEADING)
 				.addGroup(gl_contentPane.createSequentialGroup()
 					.addContainerGap(163, Short.MAX_VALUE)
 					.addComponent(horizontalBox, GroupLayout.PREFERRED_SIZE, 315, GroupLayout.PREFERRED_SIZE)
 					.addGap(152))
 				.addGroup(gl_contentPane.createSequentialGroup()
-					.addGap(194)
-					.addGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
-						.addComponent(btnExit, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
-						.addComponent(btnRun, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
-						.addComponent(btnArm, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
-						.addComponent(btnLoad, GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE))
-					.addGap(183))
-				.addGroup(gl_contentPane.createSequentialGroup()
 					.addContainerGap(178, Short.MAX_VALUE)
 					.addComponent(lblbottom, GroupLayout.PREFERRED_SIZE, 286, GroupLayout.PREFERRED_SIZE)
 					.addGap(166))
+				.addGroup(gl_contentPane.createSequentialGroup()
+					.addGap(194)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
+						.addGroup(gl_contentPane.createSequentialGroup()
+							.addGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
+								.addComponent(btnExit, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
+								.addComponent(btnRun, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
+								.addComponent(btnArm, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE)
+								.addComponent(btnLoad, GroupLayout.DEFAULT_SIZE, 253, Short.MAX_VALUE))
+							.addGap(183))
+						.addGroup(gl_contentPane.createSequentialGroup()
+							.addGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING, false)
+								.addComponent(lblCurrentWaveFile, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(lblCurrentScriptFile, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+							.addGap(18)
+							.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING, false)
+								.addComponent(label, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(lblempty, GroupLayout.DEFAULT_SIZE, 211, Short.MAX_VALUE))
+							.addGap(62))))
 		);
 		gl_contentPane.setVerticalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
@@ -122,11 +148,18 @@ public class Main_Menu extends JFrame {
 					.addComponent(btnArm)
 					.addGap(30)
 					.addComponent(btnRun)
-					.addGap(100)
+					.addGap(43)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblCurrentWaveFile, GroupLayout.PREFERRED_SIZE, 26, GroupLayout.PREFERRED_SIZE)
+						.addComponent(lblempty))
+					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
+						.addComponent(lblCurrentScriptFile, GroupLayout.PREFERRED_SIZE, 30, GroupLayout.PREFERRED_SIZE)
+						.addComponent(label))
+					.addPreferredGap(ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
 					.addComponent(btnExit)
-					.addPreferredGap(ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
-					.addComponent(lblbottom)
-					.addContainerGap())
+					.addGap(18)
+					.addComponent(lblbottom))
 		);
 		
 		JLabel lbltitle = new JLabel("   Prometheus Pyrotechnics");
