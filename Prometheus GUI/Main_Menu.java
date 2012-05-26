@@ -100,12 +100,14 @@ public class Main_Menu extends JFrame {
 		lblCurrentScriptFile.setForeground(Color.BLACK);
 		lblCurrentScriptFile.setFont(new Font("Arial Black", Font.BOLD, 12));
 		
-		JLabel lblempty = new JLabel("(empty)");
-		lblempty.setForeground(Color.BLACK);
-		lblempty.setBackground(Color.WHITE);
+		JLabel lblwave = new JLabel("(empty)");
+		lblwave.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblwave.setForeground(Color.BLACK);
+		lblwave.setBackground(Color.WHITE);
 		
-		JLabel label = new JLabel("(empty)");
-		label.setForeground(Color.BLACK);
+		JLabel lblscript = new JLabel("(empty)");
+		lblscript.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		lblscript.setForeground(Color.BLACK);
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
@@ -133,8 +135,8 @@ public class Main_Menu extends JFrame {
 								.addComponent(lblCurrentScriptFile, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
 							.addGap(18)
 							.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING, false)
-								.addComponent(label, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-								.addComponent(lblempty, GroupLayout.DEFAULT_SIZE, 211, Short.MAX_VALUE))
+								.addComponent(lblscript, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(lblwave, GroupLayout.DEFAULT_SIZE, 211, Short.MAX_VALUE))
 							.addGap(62))))
 		);
 		gl_contentPane.setVerticalGroup(
@@ -151,11 +153,11 @@ public class Main_Menu extends JFrame {
 					.addGap(43)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
 						.addComponent(lblCurrentWaveFile, GroupLayout.PREFERRED_SIZE, 26, GroupLayout.PREFERRED_SIZE)
-						.addComponent(lblempty))
+						.addComponent(lblwave))
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.BASELINE)
 						.addComponent(lblCurrentScriptFile, GroupLayout.PREFERRED_SIZE, 30, GroupLayout.PREFERRED_SIZE)
-						.addComponent(label))
+						.addComponent(lblscript))
 					.addPreferredGap(ComponentPlacement.RELATED, 30, Short.MAX_VALUE)
 					.addComponent(btnExit)
 					.addGap(18)
