@@ -78,15 +78,15 @@ public class Load_Show extends JFrame {
 		btnBackMain.setBackground(UIManager.getColor("Button.background"));
 		btnBackMain.setFont(new Font("Arial Black", Font.BOLD, 12));
 		
-		JButton btnEditInventory = new JButton("Edit Inventory");
-		btnEditInventory.setForeground(Color.BLACK);
-		btnEditInventory.setFont(new Font("Arial Black", Font.BOLD, 12));
-		btnEditInventory.setBackground(UIManager.getColor("Button.background"));
+		JButton btnDatabase = new JButton("Shell Database");
+		btnDatabase.setForeground(Color.BLACK);
+		btnDatabase.setFont(new Font("Arial Black", Font.BOLD, 12));
+		btnDatabase.setBackground(UIManager.getColor("Button.background"));
 		
-		JButton btnDatabaseEditor = new JButton("Database Editor");
-		btnDatabaseEditor.setForeground(Color.BLACK);
-		btnDatabaseEditor.setFont(new Font("Arial Black", Font.BOLD, 12));
-		btnDatabaseEditor.setBackground(UIManager.getColor("Button.background"));
+		JButton btnScriptEditor = new JButton("Upload and Edit Script");
+		btnScriptEditor.setForeground(Color.BLACK);
+		btnScriptEditor.setFont(new Font("Arial Black", Font.BOLD, 12));
+		btnScriptEditor.setBackground(UIManager.getColor("Button.background"));
 		
 		JButton btnLoadWaveFile = new JButton("Load Wave File / Extract Cues");
 		btnLoadWaveFile.setForeground(Color.BLACK);
@@ -94,7 +94,7 @@ public class Load_Show extends JFrame {
 		btnLoadWaveFile.setBackground(UIManager.getColor("Button.background"));
 		GroupLayout gl_contentPane = new GroupLayout(contentPane);
 		gl_contentPane.setHorizontalGroup(
-			gl_contentPane.createParallelGroup(Alignment.LEADING)
+			gl_contentPane.createParallelGroup(Alignment.TRAILING)
 				.addGroup(gl_contentPane.createSequentialGroup()
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
 						.addGroup(gl_contentPane.createSequentialGroup()
@@ -110,21 +110,17 @@ public class Load_Show extends JFrame {
 							.addGap(164)
 							.addComponent(lblLoadShowOptions)))
 					.addContainerGap(65, Short.MAX_VALUE))
-				.addGroup(Alignment.TRAILING, gl_contentPane.createSequentialGroup()
+				.addGroup(gl_contentPane.createSequentialGroup()
 					.addContainerGap(441, Short.MAX_VALUE)
 					.addComponent(btnBackMain)
 					.addContainerGap())
 				.addGroup(gl_contentPane.createSequentialGroup()
-					.addGap(173)
-					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
-						.addGroup(gl_contentPane.createSequentialGroup()
-							.addComponent(btnLoadWaveFile, GroupLayout.PREFERRED_SIZE, 255, GroupLayout.PREFERRED_SIZE)
-							.addContainerGap())
-						.addGroup(gl_contentPane.createSequentialGroup()
-							.addGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
-								.addComponent(btnDatabaseEditor, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 255, Short.MAX_VALUE)
-								.addComponent(btnEditInventory, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 255, Short.MAX_VALUE))
-							.addGap(196))))
+					.addGap(154)
+					.addGroup(gl_contentPane.createParallelGroup(Alignment.TRAILING)
+						.addComponent(btnScriptEditor, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 287, Short.MAX_VALUE)
+						.addComponent(btnDatabase, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 287, Short.MAX_VALUE)
+						.addComponent(btnLoadWaveFile, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 278, Short.MAX_VALUE))
+					.addGap(183))
 		);
 		gl_contentPane.setVerticalGroup(
 			gl_contentPane.createParallelGroup(Alignment.LEADING)
@@ -141,11 +137,11 @@ public class Load_Show extends JFrame {
 						.addComponent(lblscript, GroupLayout.PREFERRED_SIZE, 15, GroupLayout.PREFERRED_SIZE))
 					.addGap(40)
 					.addComponent(btnLoadWaveFile, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-					.addGap(34)
-					.addComponent(btnEditInventory, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-					.addGap(34)
-					.addComponent(btnDatabaseEditor, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
-					.addPreferredGap(ComponentPlacement.RELATED, 52, Short.MAX_VALUE)
+					.addGap(27)
+					.addComponent(btnDatabase, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+					.addGap(29)
+					.addComponent(btnScriptEditor, GroupLayout.PREFERRED_SIZE, 35, GroupLayout.PREFERRED_SIZE)
+					.addPreferredGap(ComponentPlacement.RELATED, 64, Short.MAX_VALUE)
 					.addComponent(btnBackMain, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
 					.addContainerGap())
 		);
