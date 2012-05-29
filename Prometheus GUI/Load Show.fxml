@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.9998779296875" prefWidth="648.9998779296875" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="75.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
+    <Label id="label1" layoutX="154.0" layoutY="14.0" text="Load Show Options" textOverrun="CLIP">
+      <font>
+        <Font name="Viner Hand ITC" size="40.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Button id="button1" graphicTextGap="8.0" layoutX="203.0" layoutY="238.0" prefHeight="36.0" prefWidth="243.0" text="Load Wave File and Extract Cues">
+      <font>
+        <Font name="Arial Black" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="292.0" prefHeight="36.0" prefWidth="243.0" text="Shell Database" />
+    <Label id="label3" layoutX="164.0" layoutY="107.0" text="Current Wave File:">
+      <font>
+        <Font name="Arial Black" size="16.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label3" font="$x3" layoutX="164.0" layoutY="150.0" text="Current Script File:" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="343.0" prefHeight="36.0" prefWidth="243.0" text="Upload / Edit Script File" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="472.0" prefHeight="36.0" prefWidth="243.0" text="Back to Main Menu" />
+    <Label id="label4" layoutX="357.0" layoutY="107.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label4" layoutX="357.0" layoutY="150.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+  </children>
+</AnchorPane>
