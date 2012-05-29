@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="649.0" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Label id="label2" layoutX="191.0" layoutY="503.0" text="Prometheus Software 2012" textOverrun="CLIP">
+      <font>
+        <Font name="Viner Hand ITC" size="22.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="75.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
+    <Label id="label1" layoutX="94.0" layoutY="14.0" text="Prometheus Pyrotechnics" textFill="$x1" textOverrun="CLIP">
+      <font>
+        <Font name="Viner Hand ITC" size="40.0" />
+      </font>
+    </Label>
+    <Button id="button1" graphicTextGap="8.0" layoutX="213.0" layoutY="238.0" prefHeight="36.0" prefWidth="223.0" text="Load Show">
+      <font>
+        <Font name="Arial Black" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="213.0" layoutY="292.0" prefHeight="36.0" prefWidth="222.9998779296875" text="Network Testing / Arm Slaves" />
+    <Label id="label3" layoutX="191.0" layoutY="124.0" text="Current Wave File:">
+      <font>
+        <Font name="Arial Black" size="16.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label3" font="$x3" layoutX="191.0" layoutY="167.0" text="Current Script File:" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="213.0" layoutY="343.0" prefHeight="36.0" prefWidth="223.0" text="Run Show" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="213.0" layoutY="438.0" prefHeight="36.0" prefWidth="223.0" text="Exit" />
+    <Label id="label4" layoutX="384.0" layoutY="124.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label4" layoutX="384.0" layoutY="167.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+  </children>
+</AnchorPane>
