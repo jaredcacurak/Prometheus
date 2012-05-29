@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="150.0" layoutY="15.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
+    <Label id="label1" layoutX="252.0" layoutY="20.0" text="Database Editor" textOverrun="CLIP">
+      <font>
+        <Font name="Viner Hand ITC" size="40.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label id="label3" layoutX="233.0" layoutY="94.0" text="Current Wave File:">
+      <font>
+        <Font name="Arial Black" size="16.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label3" font="$x3" layoutX="233.0" layoutY="137.0" text="Current Script File:" />
+    <Button id="button2" graphicTextGap="8.0" layoutX="584.0" layoutY="550.0" prefHeight="36.0" prefWidth="202.0" text="Back to Load Show Options">
+      <font>
+        <Font name="Arial Black" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Label id="label4" layoutX="426.0" layoutY="94.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label4" layoutX="426.0" layoutY="137.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label2" font="$x2" layoutX="58.0" layoutY="179.0" text="Inventory" />
+    <Label id="label2" font="$x2" layoutX="152.0" layoutY="179.0" text="Shell Size" />
+    <Label id="label2" font="$x2" layoutX="255.0" layoutY="179.0" text="Shell Type" />
+    <Label id="label2" font="$x2" layoutX="400.0" layoutY="179.0" text="Effect / Shell Description" />
+    <Label id="label2" font="$x2" layoutX="640.0" layoutY="179.0" text="Prefire Time" />
+    <ListView id="listView1" layoutX="58.0" layoutY="196.0" prefHeight="295.0" prefWidth="62.0" />
+    <ScrollBar id="scrollBarVertical1" layoutX="108.0" layoutY="196.0" orientation="VERTICAL" prefHeight="295.0" />
+    <ListView id="listView1" layoutX="144.0" layoutY="196.0" prefHeight="295.0" prefWidth="81.0" />
+    <ScrollBar id="scrollBarVertical1" layoutX="211.0" layoutY="196.0" orientation="VERTICAL" prefHeight="295.0" />
+    <ListView id="listView1" layoutX="244.0" layoutY="196.0" prefHeight="295.0" prefWidth="91.0" />
+    <ScrollBar id="scrollBarVertical1" layoutX="323.0" layoutY="196.0" orientation="VERTICAL" prefHeight="295.0" />
+    <ListView id="listView1" layoutX="365.0" layoutY="196.0" prefHeight="295.0" prefWidth="234.0" />
+    <ScrollBar id="scrollBarVertical1" layoutX="587.0" layoutY="196.0" orientation="VERTICAL" prefHeight="295.0" />
+    <ListView id="listView1" layoutX="630.0" layoutY="196.0" prefHeight="295.0" prefWidth="99.9998779296875" />
+    <ScrollBar id="scrollBarVertical1" layoutX="717.0" layoutY="196.0" orientation="VERTICAL" prefHeight="295.0" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="27.0" layoutY="550.0" prefHeight="36.0" prefWidth="91.0" text="Add" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="136.0" layoutY="550.0" prefHeight="36.0" prefWidth="91.0" text="Delete" />
+    <TextField id="textField1" layoutX="58.0" layoutY="500.0" prefWidth="62.0" />
+    <TextField id="textField1" layoutX="144.0" layoutY="500.0" prefWidth="81.0" />
+    <TextField id="textField1" layoutX="244.0" layoutY="500.0" prefWidth="91.0" />
+    <TextField id="textField1" layoutX="365.0" layoutY="500.0" prefWidth="234.0" />
+    <TextField id="textField1" layoutX="629.0" layoutY="500.0" prefWidth="100.0" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="355.0" layoutY="550.0" prefHeight="36.0" prefWidth="136.0" text="Save Database" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="244.0" layoutY="550.0" prefHeight="36.0" prefWidth="91.0" text="Delete All" />
+  </children>
+</AnchorPane>
