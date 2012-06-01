@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="822.0" prefWidth="1579.0" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="540.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
+    <Label id="label1" layoutX="672.0" layoutY="18.0" text="Script Editor" textOverrun="CLIP">
+      <font>
+        <Font name="Viner Hand ITC" size="40.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label id="label3" layoutX="597.0" layoutY="96.0" text="Current Wave File:">
+      <font>
+        <Font name="Arial Black" size="16.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label3" font="$x3" layoutX="597.0" layoutY="139.0" text="Current Script File:" />
+    <Button id="button2" graphicTextGap="8.0" layoutX="1363.0" layoutY="772.0" prefHeight="36.0" prefWidth="202.0" text="Back to Load Show Options">
+      <font>
+        <Font name="Arial Black" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Label id="label4" layoutX="790.0" layoutY="96.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label4" layoutX="790.0" layoutY="139.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <ListView id="listView1" layoutX="14.0" layoutY="211.0" prefHeight="387.0" prefWidth="106.0" />
+    <Label id="label5" layoutX="26.0" layoutY="188.0" text="Display Times" />
+    <Label id="label5" layoutX="277.0" layoutY="188.0" text="Slave Address" />
+    <Label id="label5" layoutX="281.0" layoutY="407.0" text="Cue Address" />
+    <Label id="label2" layoutX="23.0" layoutY="139.0" />
+    <Button id="button3" layoutX="165.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="2">
+      <font>
+        <Font size="9.0" fx:id="x4" />
+      </font>
+    </Button>
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="3" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="1" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="5" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="6" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="4" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="8" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="9" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="7" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="11" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="211.0" prefHeight="20.999900000002526" prefWidth="30.0" text="12" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="10" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="14" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="15" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="13" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="17" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="18" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="16" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="20" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="21" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="19" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="23" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="232.0" prefHeight="20.999900000002526" prefWidth="30.0" text="24" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="232.0" prefHeight="21.0" prefWidth="30.0" text="22" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="26" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="27" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="25" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="29" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="30" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="28" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="32" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="33" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="31" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="253.0" prefHeight="21.0" prefWidth="29.9998779296875" text="35" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="38" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="39" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="37" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="41" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="42" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="40" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="44" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="45" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="43" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="47" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="274.0" prefHeight="20.999900000002526" prefWidth="30.0" text="48" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="274.0" prefHeight="21.0" prefWidth="30.0" text="46" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="50" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="51" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="49" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="53" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="54" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="52" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="56" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="57" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="55" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="59" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="295.0" prefHeight="20.999900000002526" prefWidth="30.0" text="60" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="295.0" prefHeight="21.0" prefWidth="30.0" text="58" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="62" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="63" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="61" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="65" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="66" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="64" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="68" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="69" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="67" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="71" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="316.0" prefHeight="20.999900000002526" prefWidth="30.0" text="72" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="316.0" prefHeight="21.0" prefWidth="30.0" text="70" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="74" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="75" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="73" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="77" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="78" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="76" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="80" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="81" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="79" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="83" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="337.0" prefHeight="20.999900000002526" prefWidth="30.0" text="84" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="337.0" prefHeight="21.0" prefWidth="30.0" text="82" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="86" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="87" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="85" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="89" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="90" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="88" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="92" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="93" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="91" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="95" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="358.0" prefHeight="21.0" prefWidth="30.0" text="94" />
+    <Button id="button3" font="$x4" layoutX="404.0" layoutY="253.0" prefHeight="21.0" prefWidth="30.0" text="34" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="253.0" prefHeight="21.0" prefWidth="29.9998779296875" text="36" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="2" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="3" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="1" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="5" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="6" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="4" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="8" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="9" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="7" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="11" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="430.0" prefHeight="20.999900000002526" prefWidth="30.0" text="12" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="430.0" prefHeight="21.0" prefWidth="30.0" text="10" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="14" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="15" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="13" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="17" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="18" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="16" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="20" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="21" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="19" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="23" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="451.0" prefHeight="20.999900000002526" prefWidth="30.0" text="24" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="451.0" prefHeight="21.0" prefWidth="30.0" text="22" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="26" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="27" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="25" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="29" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="30" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="28" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="32" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="33" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="31" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="472.0" prefHeight="21.0" prefWidth="29.9998779296875" text="35" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="38" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="39" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="37" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="41" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="42" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="40" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="44" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="45" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="43" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="47" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="493.0" prefHeight="20.999900000002526" prefWidth="30.0" text="48" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="493.0" prefHeight="21.0" prefWidth="30.0" text="46" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="50" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="51" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="49" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="53" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="54" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="52" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="56" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="57" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="55" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="59" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="514.0" prefHeight="20.999900000002526" prefWidth="30.0" text="60" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="514.0" prefHeight="21.0" prefWidth="30.0" text="58" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="62" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="63" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="61" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="65" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="66" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="64" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="68" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="69" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="67" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="71" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="535.0" prefHeight="20.999900000002526" prefWidth="30.0" text="72" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="535.0" prefHeight="21.0" prefWidth="30.0" text="70" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="74" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="75" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="73" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="77" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="78" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="76" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="80" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="81" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="79" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="83" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="556.0" prefHeight="20.999900000002526" prefWidth="30.0" text="84" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="556.0" prefHeight="21.0" prefWidth="30.0" text="82" />
+    <Button id="button3" font="$x4" layoutX="165.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="86" />
+    <Button id="button3" font="$x4" layoutX="195.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="87" />
+    <Button id="button4" font="$x4" layoutX="135.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="85" />
+    <Button id="button3" font="$x4" layoutX="255.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="89" />
+    <Button id="button3" font="$x4" layoutX="285.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="90" />
+    <Button id="button4" font="$x4" layoutX="225.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="88" />
+    <Button id="button3" font="$x4" layoutX="344.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="92" />
+    <Button id="button3" font="$x4" layoutX="374.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="93" />
+    <Button id="button4" font="$x4" layoutX="314.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="91" />
+    <Button id="button3" font="$x4" layoutX="434.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="95" />
+    <Button id="button4" font="$x4" layoutX="404.0" layoutY="577.0" prefHeight="21.0" prefWidth="30.0" text="94" />
+    <Button id="button3" font="$x4" layoutX="404.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="34" />
+    <Rectangle id="rectangle2" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="DODGERBLUE" height="65.0" layoutX="511.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="901.0" />
+    <Button id="button3" font="$x4" layoutX="464.0" layoutY="472.0" prefHeight="21.0" prefWidth="29.9998779296875" text="36" />
+    <Label id="label5" layoutX="535.0" layoutY="203.0" text="Display Time" />
+    <TextField id="textField1" layoutX="640.0" layoutY="228.0" prefWidth="95.99990000000253" />
+    <Label id="label5" layoutX="656.0" layoutY="202.0" text="Prefire Time" />
+    <ListView id="listView2" layoutX="511.0" layoutY="271.0" prefHeight="421.0" prefWidth="915.0" />
+    <TextField id="textField1" layoutX="757.0" layoutY="228.0" prefWidth="95.99990000000253" />
+    <Label id="label5" layoutX="780.0" layoutY="203.0" text="Cue Time" />
+    <TextField id="textField1" layoutX="874.0" layoutY="228.0" prefWidth="50.0" />
+    <Label id="label5" layoutX="871.0" layoutY="203.0" text="Slave Addr" wrapText="true" />
+    <TextField id="textField1" layoutX="952.0" layoutY="228.0" prefWidth="50.0" />
+    <Label id="label5" layoutX="952.0" layoutY="203.0" text="Cue Addr" wrapText="true" />
+    <TextField id="textField1" layoutX="1026.0" layoutY="228.0" prefWidth="50.0" />
+    <Label id="label5" layoutX="1026.0" layoutY="203.0" text="Shell Size" wrapText="true" />
+    <TextField id="textField1" layoutX="1103.0" layoutY="228.0" prefWidth="298.0" />
+    <Label id="label5" layoutX="1190.0" layoutY="202.0" text="Effect / Cue Description" />
+    <ScrollBar id="scrollBarVertical1" layoutX="1414.0" layoutY="271.0" orientation="VERTICAL" prefHeight="421.0" />
+    <Button id="button1" layoutX="1426.0" layoutY="204.0" prefHeight="20.0" text="Import Shell from Database">
+      <font>
+        <Font size="10.0" />
+      </font>
+    </Button>
+    <Button id="button1" layoutX="1426.0" layoutY="236.0" prefWidth="138.0" text="Add line to Show Script">
+      <font>
+        <Font size="11.0" />
+      </font>
+    </Button>
+    <ScrollBar id="scrollBarVertical2" layoutX="108.0" layoutY="211.0" orientation="VERTICAL" prefHeight="387.0" />
+    <TextField id="textField1" layoutX="521.0" layoutY="228.0" prefWidth="95.99990000000253" />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="510.0" layoutY="706.0" stroke="BLACK" strokeType="INSIDE" width="221.0" />
+    <Label id="label6" layoutX="521.0" layoutY="714.0" prefHeight="21.0" text="Total number of lines:" textFill="WHITE">
+      <font>
+        <Font size="15.0" fx:id="x5" />
+      </font>
+    </Label>
+    <Label id="label7" font="$x5" layoutX="681.0" layoutY="715.0" prefWidth="50.0" text="0" textFill="WHITE" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="29.0" layoutY="644.0" prefHeight="36.0" prefWidth="91.0" text="Open" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="29.0" layoutY="688.0" prefHeight="36.0" prefWidth="91.0" text="Save" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="29.0" layoutY="735.0" prefHeight="36.0" prefWidth="91.0" text="Print" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="186.0" layoutY="644.0" prefHeight="36.0" prefWidth="106.0" text="Delete Line" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="186.0" layoutY="688.0" prefHeight="36.0" prefWidth="106.0" text="Delete All" />
+    <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="348.0" layoutY="644.0" prefHeight="36.0" prefWidth="125.0" text="Search for..." />
+  </children>
+</AnchorPane>
