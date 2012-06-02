@@ -33,9 +33,9 @@
     <Label id="label4" layoutX="790.0" layoutY="96.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
     <Label id="label4" layoutX="790.0" layoutY="139.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
     <ListView id="listView1" layoutX="14.0" layoutY="211.0" prefHeight="387.0" prefWidth="106.0" />
-    <Label id="label5" layoutX="26.0" layoutY="188.0" text="Display Times" />
-    <Label id="label5" layoutX="277.0" layoutY="188.0" text="Slave Address" />
-    <Label id="label5" layoutX="281.0" layoutY="407.0" text="Cue Address" />
+    <Label id="label5" font="$x2" layoutX="21.0" layoutY="188.0" text="Display Times" />
+    <Label id="label5" font="$x2" layoutX="268.0" layoutY="188.0" text="Slave Address" />
+    <Label id="label5" font="$x2" layoutX="274.0" layoutY="407.0" text="Cue Address" />
     <Label id="label2" layoutX="23.0" layoutY="139.0" />
     <Button id="button3" layoutX="165.0" layoutY="211.0" prefHeight="21.0" prefWidth="30.0" text="2">
       <font>
@@ -232,22 +232,22 @@
     <Button id="button3" font="$x4" layoutX="404.0" layoutY="472.0" prefHeight="21.0" prefWidth="30.0" text="34" />
     <Rectangle id="rectangle2" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="DODGERBLUE" height="65.0" layoutX="511.0" layoutY="196.0" stroke="BLACK" strokeType="INSIDE" width="901.0" />
     <Button id="button3" font="$x4" layoutX="464.0" layoutY="472.0" prefHeight="21.0" prefWidth="29.9998779296875" text="36" />
-    <Label id="label5" layoutX="535.0" layoutY="203.0" text="Display Time" />
+    <Label id="label5" font="$x2" layoutX="527.0" layoutY="203.0" text="Display Time" />
     <TextField id="textField1" layoutX="640.0" layoutY="228.0" prefWidth="95.99990000000253" />
-    <Label id="label5" layoutX="656.0" layoutY="202.0" text="Prefire Time" />
+    <Label id="label5" font="$x2" layoutX="648.0" layoutY="203.0" text="Prefire Time" />
     <ListView id="listView2" layoutX="511.0" layoutY="271.0" prefHeight="421.0" prefWidth="915.0" />
     <TextField id="textField1" layoutX="757.0" layoutY="228.0" prefWidth="95.99990000000253" />
-    <Label id="label5" layoutX="780.0" layoutY="203.0" text="Cue Time" />
+    <Label id="label5" font="$x2" layoutX="774.0" layoutY="203.0" text="Cue Time" />
     <TextField id="textField1" layoutX="874.0" layoutY="228.0" prefWidth="50.0" />
-    <Label id="label5" layoutX="871.0" layoutY="203.0" text="Slave Addr" wrapText="true" />
+    <Label id="label5" font="$x2" layoutX="864.0" layoutY="203.0" text="Slave Addr" wrapText="true" />
     <TextField id="textField1" layoutX="952.0" layoutY="228.0" prefWidth="50.0" />
-    <Label id="label5" layoutX="952.0" layoutY="203.0" text="Cue Addr" wrapText="true" />
+    <Label id="label5" font="$x2" layoutX="947.0" layoutY="203.0" text="Cue Addr" wrapText="true" />
     <TextField id="textField1" layoutX="1026.0" layoutY="228.0" prefWidth="50.0" />
-    <Label id="label5" layoutX="1026.0" layoutY="203.0" text="Shell Size" wrapText="true" />
+    <Label id="label5" font="$x2" layoutX="1019.0" layoutY="203.0" text="Shell Size" wrapText="true" />
     <TextField id="textField1" layoutX="1103.0" layoutY="228.0" prefWidth="298.0" />
-    <Label id="label5" layoutX="1190.0" layoutY="202.0" text="Effect / Cue Description" />
+    <Label id="label5" font="$x2" layoutX="1174.0" layoutY="203.0" text="Effect / Cue Description" />
     <ScrollBar id="scrollBarVertical1" layoutX="1414.0" layoutY="271.0" orientation="VERTICAL" prefHeight="421.0" />
-    <Button id="button1" layoutX="1426.0" layoutY="204.0" prefHeight="20.0" text="Import Shell from Database">
+    <Button id="button1" layoutX="1426.0" layoutY="204.0" prefHeight="20.0001220703125" text="Import Shell from Database">
       <font>
         <Font size="10.0" />
       </font>
@@ -259,18 +259,21 @@
     </Button>
     <ScrollBar id="scrollBarVertical2" layoutX="108.0" layoutY="211.0" orientation="VERTICAL" prefHeight="387.0" />
     <TextField id="textField1" layoutX="521.0" layoutY="228.0" prefWidth="95.99990000000253" />
-    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="510.0" layoutY="706.0" stroke="BLACK" strokeType="INSIDE" width="221.0" />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="510.0" layoutY="706.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
     <Label id="label6" layoutX="521.0" layoutY="714.0" prefHeight="21.0" text="Total number of lines:" textFill="WHITE">
       <font>
-        <Font size="15.0" fx:id="x5" />
+        <Font name="Arial Black" size="15.0" fx:id="x5" />
       </font>
     </Label>
-    <Label id="label7" font="$x5" layoutX="681.0" layoutY="715.0" prefWidth="50.0" text="0" textFill="WHITE" />
+    <Label id="label7" font="$x5" layoutX="708.0" layoutY="715.0" prefWidth="50.0" text="0" textFill="WHITE" />
     <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="29.0" layoutY="644.0" prefHeight="36.0" prefWidth="91.0" text="Open" />
     <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="29.0" layoutY="688.0" prefHeight="36.0" prefWidth="91.0" text="Save" />
     <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="29.0" layoutY="735.0" prefHeight="36.0" prefWidth="91.0" text="Print" />
     <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="186.0" layoutY="644.0" prefHeight="36.0" prefWidth="106.0" text="Delete Line" />
     <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="186.0" layoutY="688.0" prefHeight="36.0" prefWidth="106.0" text="Delete All" />
     <Button id="button2" font="$x2" graphicTextGap="10.0" layoutX="348.0" layoutY="644.0" prefHeight="36.0" prefWidth="125.0" text="Search for..." />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="836.0" layoutY="707.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Label id="label6" font="$x5" layoutX="847.0" layoutY="715.0" prefHeight="21.0" text="Current line number:" textFill="WHITE" />
+    <Label id="label7" font="$x5" layoutX="1034.0" layoutY="716.0" prefWidth="50.0" text="0" textFill="WHITE" />
   </children>
 </AnchorPane>
