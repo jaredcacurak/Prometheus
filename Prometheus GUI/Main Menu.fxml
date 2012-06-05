@@ -3,42 +3,40 @@
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="547.0" prefWidth="649.0" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="561.0" prefWidth="649.0" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
   <children>
-    <Label id="label2" layoutX="191.0" layoutY="503.0" text="Prometheus Software 2012" textOverrun="CLIP">
+    <Label id="label2" layoutX="167.0" layoutY="525.0" text="Prometheus Software V1.0  2012" textOverrun="CLIP">
       <font>
         <Font name="Viner Hand ITC" size="22.0" />
       </font>
-      <textFill>
-        <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
-      </textFill>
     </Label>
-    <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="75.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
-    <Label id="label1" layoutX="94.0" layoutY="14.0" text="Prometheus Pyrotechnics" textFill="$x1" textOverrun="CLIP">
-      <font>
-        <Font name="Viner Hand ITC" size="40.0" />
-      </font>
-    </Label>
-    <Button id="button1" graphicTextGap="8.0" layoutX="213.0" layoutY="238.0" prefHeight="36.0" prefWidth="223.0" text="Load Show">
+    <Button id="button1" graphicTextGap="8.0" layoutX="214.0" layoutY="281.0" prefHeight="36.0" prefWidth="223.0" text="Load Show">
       <font>
         <Font name="Arial Black" size="12.0" fx:id="x2" />
       </font>
     </Button>
-    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="213.0" layoutY="292.0" prefHeight="36.0" prefWidth="222.9998779296875" text="Network Testing / Arm Slaves" />
-    <Label id="label3" layoutX="191.0" layoutY="124.0" text="Current Wave File:">
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="214.0" layoutY="335.0" prefHeight="36.0" prefWidth="222.9998779296875" text="Network Testing / Arm Slaves" />
+    <Label id="label3" layoutX="191.0" layoutY="190.0" text="Current Wave File:">
       <font>
         <Font name="Arial Black" size="16.0" fx:id="x3" />
       </font>
     </Label>
-    <Label id="label3" font="$x3" layoutX="191.0" layoutY="167.0" text="Current Script File:" />
-    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="213.0" layoutY="343.0" prefHeight="36.0" prefWidth="223.0" text="Run Show" />
-    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="213.0" layoutY="438.0" prefHeight="36.0" prefWidth="223.0" text="Exit" />
-    <Label id="label4" layoutX="384.0" layoutY="124.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
-    <Label id="label4" layoutX="384.0" layoutY="167.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label3" font="$x3" layoutX="191.0" layoutY="221.0" text="Current Script File:" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="214.0" layoutY="386.0" prefHeight="36.0" prefWidth="223.0" text="Run Show" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="213.0" layoutY="474.0" prefHeight="36.0" prefWidth="223.0" text="Exit" />
+    <Label id="label4" layoutX="384.0" layoutY="221.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Rectangle id="rectangle1" arcHeight="16.0" arcWidth="135.0" depthTest="ENABLE" fill="WHITE" focusTraversable="true" height="156.0" layoutX="52.0" layoutY="18.0" stroke="BLACK" strokeLineCap="BUTT" strokeLineJoin="ROUND" strokeMiterLimit="1.6" strokeType="OUTSIDE" strokeWidth="3.5" width="545.0001220703125" />
+    <ImageView id="emptyImageView1" fitHeight="136.12002563476562" fitWidth="515.0001220703125" layoutX="67.0" layoutY="25.0">
+      <image>
+        <Image url="file:/C:/Users/Eric/Downloads/Prometheus%20Logo.JPG" preserveRatio="false" smooth="false" />
+      </image>
+    </ImageView>
+    <Label id="label4" layoutX="384.0" layoutY="190.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
   </children>
 </AnchorPane>
