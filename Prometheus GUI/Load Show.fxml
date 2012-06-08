@@ -31,7 +31,7 @@
       </font>
     </Label>
     <Label id="label3" font="$x3" layoutX="164.0" layoutY="150.0" text="Current Script File:" />
-    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="343.0" prefHeight="36.0" prefWidth="243.0" text="Upload / Edit Script File" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="343.0" prefHeight="36.0" prefWidth="243.0" text="Create / Edit Script File" />
     <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="472.0" prefHeight="36.0" prefWidth="243.0" text="Back to Main Menu" />
     <Label id="label4" layoutX="357.0" layoutY="107.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
     <Label id="label4" layoutX="357.0" layoutY="150.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
