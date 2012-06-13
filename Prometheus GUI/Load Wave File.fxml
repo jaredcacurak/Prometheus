@@ -11,7 +11,7 @@
 <AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="546.9998779296875" prefWidth="648.9998779296875" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
   <children>
     <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="75.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
-    <Rectangle id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="57.0" layoutX="96.0" layoutY="227.0" stroke="BLACK" strokeType="INSIDE" width="464.0001220703125" />
+    <Rectangle id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="#cc3100" height="57.0" layoutX="96.0" layoutY="227.0" stroke="BLACK" strokeType="INSIDE" width="464.0001220703125" />
     <Label id="label1" layoutX="178.0" layoutY="19.0" text="Load Wave File" textOverrun="CLIP">
       <font>
         <Font name="Viner Hand ITC" size="40.0" />
