@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="682.0" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="91.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
+    <Label id="label1" layoutX="263.0" layoutY="19.0" text="Cue Test" textOverrun="CLIP">
+      <font>
+        <Font name="Viner Hand ITC" size="40.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label id="label3" layoutX="174.0" layoutY="108.0" text="Current Wave File:">
+      <font>
+        <Font name="Arial Black" size="16.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label3" font="$x3" layoutX="174.0" layoutY="151.0" text="Current Script File:" />
+    <Button id="button2" graphicTextGap="8.0" layoutX="220.0" layoutY="575.0" prefHeight="36.0" prefWidth="243.0" text="Back to Network Testing Options">
+      <font>
+        <Font name="Arial Black" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Label id="label4" layoutX="367.0" layoutY="108.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label4" layoutX="367.0" layoutY="151.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <ListView id="listView1" layoutX="241.0" layoutY="218.0" prefHeight="210.0" prefWidth="200.0" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="258.0" layoutY="440.0" prefHeight="36.0" prefWidth="167.0" text="Begin Cue Test" />
+    <Label id="label2" alignment="TOP_CENTER" font="$x2" layoutX="241.0" layoutY="201.0" prefWidth="200.0" text="Cue Test Results" />
+    <ScrollBar id="scrollBarVertical1" layoutX="429.0" layoutY="219.0" orientation="VERTICAL" prefHeight="209.0" />
+    <Label id="label2" alignment="CENTER" font="$x2" layoutX="268.0" layoutY="497.0" text="Testing. Please Wait..." />
+    <Label id="label2" alignment="CENTER" font="$x2" layoutX="291.0" layoutY="532.0" text="Test Complete!" />
+  </children>
+</AnchorPane>
