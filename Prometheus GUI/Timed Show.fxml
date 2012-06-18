@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="822.0" prefWidth="1044.0" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="272.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
+    <Label id="label1" layoutX="411.0" layoutY="23.0" text="Timed Show" textOverrun="CLIP">
+      <font>
+        <Font name="Viner Hand ITC" size="40.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label id="label3" layoutX="345.0" layoutY="93.0" text="Current Wave File:">
+      <font>
+        <Font name="Arial Black" size="16.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label3" font="$x3" layoutX="345.0" layoutY="136.0" text="Current Script File:" />
+    <Button id="button2" graphicTextGap="8.0" layoutX="828.0" layoutY="772.0" prefHeight="36.0" prefWidth="202.0" text="Back to ShowTime Options">
+      <font>
+        <Font name="Arial Black" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Label id="label4" layoutX="538.0" layoutY="93.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label4" layoutX="538.0" layoutY="136.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label2" layoutX="274.0" layoutY="139.0" />
+    <Rectangle id="rectangle2" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="DODGERBLUE" height="16.00000762939453" layoutX="71.0" layoutY="188.0" stroke="BLACK" strokeType="INSIDE" width="901.0" />
+    <Label id="label5" font="$x2" layoutX="87.0" layoutY="188.0" text="Display Time" />
+    <Label id="label5" font="$x2" layoutX="221.0" layoutY="188.0" text="Prefire Time" />
+    <ListView id="listView2" layoutX="71.0" layoutY="205.0" prefHeight="421.0" prefWidth="901.0" />
+    <Label id="label5" font="$x2" layoutX="344.0" layoutY="188.0" text="Cue Time" />
+    <Label id="label5" font="$x2" layoutX="446.0" layoutY="188.0" text="Slave Addr" wrapText="true" />
+    <Label id="label5" font="$x2" layoutX="547.0" layoutY="188.0" text="Cue Addr" wrapText="true" />
+    <Label id="label5" font="$x2" layoutX="644.0" layoutY="188.0" text="Shell Size" wrapText="true" />
+    <Label id="label5" font="$x2" layoutX="763.0" layoutY="188.0" text="Effect / Cue Description" />
+    <ScrollBar id="scrollBarVertical1" layoutX="960.0" layoutY="205.0" orientation="VERTICAL" prefHeight="421.0" />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="547.0" layoutY="638.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Label id="label6" layoutX="558.0" layoutY="646.0" prefHeight="21.0" text="Firing Cue :" textFill="WHITE">
+      <font>
+        <Font name="Arial Black" size="15.0" fx:id="x4" />
+      </font>
+    </Label>
+    <Label id="label7" font="$x4" layoutX="663.0" layoutY="646.0" prefWidth="132.0" text="0" textFill="WHITE" />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="547.0" layoutY="674.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Label id="label6" font="$x4" layoutX="558.0" layoutY="682.0" prefHeight="21.0" text="Total Cues :" textFill="WHITE" />
+    <Label id="label7" font="$x4" layoutX="663.0" layoutY="682.0" prefWidth="132.0" text="0" textFill="WHITE" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="608.0" layoutY="772.0" prefHeight="36.0" prefWidth="141.0" text="Open Script File" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="287.0" layoutY="772.0" prefHeight="36.0" prefWidth="141.0" text="Disconnect Slave" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="447.0" layoutY="772.0" prefHeight="36.0" prefWidth="141.0" text="Pause Show" />
+    <Button id="button2" graphicTextGap="8.0" layoutX="14.0" layoutY="732.0" prefHeight="73.99990844726562" prefWidth="191.0" text="Start Show" textFill="RED">
+      <font>
+        <Font name="Arial Black" size="20.0" />
+      </font>
+    </Button>
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="253.0" layoutY="638.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Label id="label6" font="$x4" layoutX="264.0" layoutY="646.0" prefHeight="21.0" text="Show Timer :" textFill="WHITE" />
+    <Label id="label7" font="$x4" layoutX="385.0" layoutY="646.0" prefWidth="132.0" text="0:00:00.00" textFill="WHITE" />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="253.0" layoutY="674.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Label id="label6" font="$x4" layoutX="264.0" layoutY="682.0" prefHeight="21.0" text="Total Time :" textFill="WHITE" />
+    <Label id="label7" font="$x4" layoutX="385.0" layoutY="682.0" prefWidth="132.0" text="0:00:00.00" textFill="WHITE" />
+  </children>
+</AnchorPane>
