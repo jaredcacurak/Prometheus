@@ -19,12 +19,12 @@
         <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
       </textFill>
     </Label>
-    <Button id="button1" graphicTextGap="8.0" layoutX="203.0" layoutY="238.0" prefHeight="36.0" prefWidth="243.0" text="Network Test">
+    <Button id="button1" graphicTextGap="8.0" layoutX="203.0" layoutY="204.0" prefHeight="36.0" prefWidth="243.0" text="Network Test">
       <font>
         <Font name="Arial Black" size="12.0" fx:id="x2" />
       </font>
     </Button>
-    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="292.0" prefHeight="36.0" prefWidth="243.0" text="Slave Test" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="258.0" prefHeight="36.0" prefWidth="243.0" text="Slave Test" />
     <Label id="label3" layoutX="164.0" layoutY="107.0" text="Current Wave File:">
       <font>
         <Font name="Arial Black" size="16.0" fx:id="x3" />
@@ -34,6 +34,7 @@
     <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="472.0" prefHeight="36.0" prefWidth="243.0" text="Back to Main Menu" />
     <Label id="label4" layoutX="357.0" layoutY="107.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
     <Label id="label4" layoutX="357.0" layoutY="150.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
-    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="347.0" prefHeight="36.0" prefWidth="243.0" text="Cue Test" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="313.0" prefHeight="36.0" prefWidth="243.0" text="Cue Test" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="203.0" layoutY="365.0" prefHeight="36.0" prefWidth="243.0" text="Battery Level Test" />
   </children>
 </AnchorPane>
