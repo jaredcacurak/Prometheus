@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="758.0" rotate="360.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <Rectangle id="rectangle1" arcHeight="5.0" arcWidth="5.0" depthTest="ENABLE" fill="WHITE" height="73.9999008178711" layoutX="129.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="499.0000915527344" />
+    <Label id="label1" layoutX="156.0" layoutY="18.0" text="Network Diagnostic Test" textOverrun="CLIP">
+      <font>
+        <Font name="Viner Hand ITC" size="40.0" />
+      </font>
+      <textFill>
+        <Color blue="0.000" green="0.480" red="1.000" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label id="label3" layoutX="212.0" layoutY="95.0" text="Current Wave File:">
+      <font>
+        <Font name="Arial Black" size="16.0" fx:id="x3" />
+      </font>
+    </Label>
+    <Label id="label3" font="$x3" layoutX="212.0" layoutY="138.0" text="Current Script File:" />
+    <Button id="button2" graphicTextGap="8.0" layoutX="501.0" layoutY="570.0" prefHeight="36.0" prefWidth="243.0" text="Back to Network Testing Options">
+      <font>
+        <Font name="Arial Black" size="12.0" fx:id="x2" />
+      </font>
+    </Button>
+    <Label id="label4" layoutX="405.0" layoutY="95.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Label id="label4" layoutX="405.0" layoutY="138.0" prefHeight="23.0" prefWidth="191.0" text="(empty)" />
+    <Rectangle id="rectangle5" arcHeight="5.0" arcWidth="5.0" fill="RED" height="73.99990844726562" layoutX="26.0" layoutY="177.0" stroke="BLACK" strokeType="INSIDE" width="285.0" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="35.0" layoutY="183.0" prefHeight="23.0" prefWidth="130.0" text="ARM SLAVES" textFill="RED" />
+    <Label id="label3" font="$x2" layoutX="68.0" layoutY="209.0" text="Slaves are currently disarmed." />
+    <Label id="label3" font="$x2" layoutX="78.0" layoutY="227.0" text="Slaves are currently armed." />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="174.0" layoutY="183.0" prefHeight="23.0" prefWidth="130.0" text="DISARM SLAVES" textFill="RED" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="94.0" layoutY="266.0" prefHeight="36.0" prefWidth="161.0" text="Fire Cue" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="94.0" layoutY="350.0" prefHeight="36.0" prefWidth="161.0" text="Sequence Test" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="94.0" layoutY="401.0" prefHeight="36.0" prefWidth="161.0" text="Multi-Fire Test" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="325.0" layoutY="458.0" prefHeight="36.0" prefWidth="161.0" text="Radio Test" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="325.0" layoutY="401.0" prefHeight="36.0" prefWidth="161.0" text="Test Cue Continue" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="325.0" layoutY="336.0" prefHeight="36.0" prefWidth="161.0" text="Test Cues" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="325.0" layoutY="278.0" prefHeight="24.0" prefWidth="161.0" text="Test Slave" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="414.0" layoutY="226.0" prefHeight="24.0" prefWidth="72.0" text="Watch" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="325.0" layoutY="226.0" prefHeight="23.999900000002526" prefWidth="72.0" text="Reset" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="414.0" layoutY="183.0" prefHeight="24.0" prefWidth="72.0" text="Error" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="325.0" layoutY="183.0" prefHeight="24.0" prefWidth="72.0" text="Clear" />
+    <ListView id="listView1" layoutX="500.0" layoutY="183.0" prefHeight="23.000099999997474" prefWidth="200.0" />
+    <ListView id="listView1" layoutX="500.0" layoutY="227.0" prefHeight="23.000099999997474" prefWidth="200.0" />
+    <ListView id="listView1" layoutX="500.0" layoutY="278.0" prefHeight="23.000099999997474" prefWidth="200.0" />
+    <ListView id="listView1" layoutX="500.0" layoutY="336.0" prefHeight="197.0" prefWidth="200.0" />
+    <ScrollBar id="scrollBarVertical1" layoutX="688.0" layoutY="337.0" orientation="VERTICAL" prefHeight="196.0" />
+    <Line id="line1" endX="-15.0" layoutX="515.0" layoutY="355.0" startX="-29.0" />
+    <Line id="line1" endX="-15.0" layoutX="515.0" layoutY="419.0" startX="-29.0" />
+    <Line id="line1" endX="-15.0" layoutX="516.0" layoutY="476.0" startX="-29.0" />
+    <Rectangle id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.999977111816406" layoutX="22.0" layoutY="482.0" stroke="BLACK" strokeType="INSIDE" width="125.0000991821289" />
+    <Label id="label3" font="$x3" layoutX="22.0" layoutY="457.0" text="Slave Address" />
+    <TextField id="textField1" alignment="CENTER" layoutX="49.0" layoutY="492.0" prefHeight="24.0" prefWidth="71.0" text="0" />
+    <Rectangle id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.999977111816406" layoutX="174.0" layoutY="482.0" stroke="BLACK" strokeType="INSIDE" width="125.0000991821289" />
+    <Label id="label3" font="$x3" layoutX="181.0" layoutY="457.0" text="Cue Address" />
+    <TextField id="textField1" alignment="CENTER" layoutX="201.0" layoutY="492.0" prefHeight="24.0" prefWidth="71.0" text="0" />
+    <Rectangle id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="42.999977111816406" layoutX="106.0" layoutY="563.0" stroke="BLACK" strokeType="INSIDE" width="125.0000991821289" />
+    <Label id="label3" font="$x3" layoutX="89.0" layoutY="540.0" text="Interval (seconds)" />
+    <TextField id="textField1" alignment="CENTER" layoutX="133.0" layoutY="573.0" prefHeight="24.0" prefWidth="71.0" text="0" />
+  </children>
+</AnchorPane>
