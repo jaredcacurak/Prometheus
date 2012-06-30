@@ -43,31 +43,30 @@
     <Label id="label5" font="$x2" layoutX="644.0" layoutY="172.0" text="Shell Size" wrapText="true" />
     <Label id="label5" font="$x2" layoutX="763.0" layoutY="172.0" text="Effect / Cue Description" />
     <ScrollBar id="scrollBarVertical1" layoutX="960.0" layoutY="189.0" orientation="VERTICAL" prefHeight="421.0" />
-    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="547.0" layoutY="620.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
-    <Label id="label6" layoutX="558.0" layoutY="628.0" prefHeight="21.0" text="Firing Cue :" textFill="WHITE">
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="501.0" layoutY="625.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Label id="label6" layoutX="512.0" layoutY="633.0" prefHeight="21.0" text="Firing Cue :" textFill="WHITE">
       <font>
         <Font name="Arial Black" size="15.0" fx:id="x4" />
       </font>
     </Label>
-    <Label id="label7" font="$x4" layoutX="663.0" layoutY="628.0" prefWidth="132.0" text="0" textFill="WHITE" />
-    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="547.0" layoutY="656.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
-    <Label id="label6" font="$x4" layoutX="558.0" layoutY="664.0" prefHeight="21.0" text="Total Cues :" textFill="WHITE" />
-    <Label id="label7" font="$x4" layoutX="663.0" layoutY="664.0" prefWidth="132.0" text="0" textFill="WHITE" />
+    <Label id="label7" font="$x4" layoutX="617.0" layoutY="633.0" prefWidth="132.0" text="0" textFill="WHITE" />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="501.0" layoutY="661.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Label id="label6" font="$x4" layoutX="512.0" layoutY="669.0" prefHeight="21.0" text="Total Cues :" textFill="WHITE" />
+    <Label id="label7" font="$x4" layoutX="617.0" layoutY="669.0" prefWidth="132.0" text="0" textFill="WHITE" />
     <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="859.0" layoutY="725.0" prefHeight="36.0" prefWidth="141.0" text="Open Script File" />
-    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="406.0" layoutY="774.0" prefHeight="36.0" prefWidth="141.0" text="Disconnect Slave" />
-    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="406.0" layoutY="727.0" prefHeight="36.0" prefWidth="141.0" text="Pause Show" />
+    <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="406.0" layoutY="754.0" prefHeight="36.0" prefWidth="141.0" text="Pause Show" />
     <Button id="button2" graphicTextGap="8.0" layoutX="14.0" layoutY="638.0" prefHeight="73.99990000000253" prefWidth="191.0" text="Start Show" textAlignment="CENTER" textFill="RED" underline="true">
       <font>
         <Font name="Arial Black" size="20.0" />
       </font>
     </Button>
-    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="253.0" layoutY="620.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="218.0" layoutY="625.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
     <Rectangle id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0001220703125" layoutX="17.0" layoutY="748.0" stroke="BLACK" strokeType="INSIDE" width="167.0" />
-    <Label id="label6" font="$x4" layoutX="264.0" layoutY="628.0" prefHeight="21.0" text="Show Timer :" textFill="WHITE" />
-    <Label id="label7" font="$x4" layoutX="385.0" layoutY="628.0" prefWidth="132.0" text="0:00:00.00" textFill="WHITE" />
-    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="253.0" layoutY="656.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
-    <Label id="label6" font="$x4" layoutX="264.0" layoutY="664.0" prefHeight="21.0" text="Total Time :" textFill="WHITE" />
-    <Label id="label7" font="$x4" layoutX="385.0" layoutY="664.0" prefWidth="132.0" text="0:00:00.00" textFill="WHITE" />
+    <Label id="label6" font="$x4" layoutX="229.0" layoutY="633.0" prefHeight="21.0" text="Show Timer :" textFill="WHITE" />
+    <Label id="label7" font="$x4" layoutX="350.0" layoutY="633.0" prefWidth="132.0" text="0:00:00.00" textFill="WHITE" />
+    <Rectangle id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="36.0" layoutX="218.0" layoutY="661.0" stroke="BLACK" strokeType="INSIDE" width="264.0" />
+    <Label id="label6" font="$x4" layoutX="229.0" layoutY="669.0" prefHeight="21.0" text="Total Time :" textFill="WHITE" />
+    <Label id="label7" font="$x4" layoutX="350.0" layoutY="669.0" prefWidth="132.0" text="0:00:00.00" textFill="WHITE" />
     <Label id="label3" font="$x3" layoutX="48.0" layoutY="724.0" text="Adjust Time" />
     <TextField id="textField1" layoutX="25.0" layoutY="765.0" prefWidth="17.0" text="0" />
     <Label id="label3" font="$x3" layoutX="42.0" layoutY="764.0" text=":" />
@@ -86,5 +85,21 @@
     <Button id="button2" font="$x2" graphicTextGap="8.0" layoutX="617.0" layoutY="725.0" prefHeight="36.0" prefWidth="141.0" text="ARM SLAVES" textFill="RED" />
     <Label id="label3" font="$x2" layoutX="587.0" layoutY="766.0" text="Slaves are currently disarmed." />
     <Label id="label3" font="$x2" layoutX="597.0" layoutY="784.0" text="Slaves are currently armed." />
+    <Rectangle id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.999977111816406" layoutX="784.0" layoutY="625.0" stroke="BLACK" strokeType="INSIDE" width="181.0" />
+    <Label id="label3" layoutX="792.0" layoutY="635.0" text="Null Slave">
+      <font>
+        <Font name="Arial Black" size="13.0" />
+      </font>
+    </Label>
+    <TextField id="textField2" layoutX="898.0" layoutY="633.0" prefWidth="63.0" />
+    <Rectangle id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="35.999977111816406" layoutX="784.0" layoutY="667.0" stroke="BLACK" strokeType="INSIDE" width="181.0" />
+    <Label id="label3" font="$x2" layoutX="792.0" layoutY="678.0" text="Null Shell Size" />
+    <TextField id="textField2" layoutX="898.0" layoutY="675.0" prefWidth="63.0" />
+    <Button id="button2" graphicTextGap="8.0" layoutX="972.0" layoutY="625.0" prefHeight="36.0" prefWidth="54.0" text="Enter">
+      <font>
+        <Font name="Arial Black" size="10.0" fx:id="x5" />
+      </font>
+    </Button>
+    <Button id="button2" font="$x5" graphicTextGap="8.0" layoutX="972.0" layoutY="665.0" prefHeight="36.0" prefWidth="54.0" text="Enter" />
   </children>
 </AnchorPane>
