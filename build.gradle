@@ -1,4 +1,4 @@
-allprojects {
+subprojects {
     apply plugin: 'java'
     apply plugin: 'eclipse'
     
@@ -10,18 +10,11 @@ allprojects {
         compile 'org.rxtx:rxtx:2.+', 'com.google.guava:guava:r09'
         testCompile 'junit:junit:4.+'
     }
+	
+	version = '1.0'
+	
+	jar {
+		manifest.attributes provider: 'gradle'
+	}
 }
 
-project(':console') {
-    dependencies {
-        compile project(':api')
-    }
-    
-    jar {
-        manifest {
-            attributes("Implementation-Title": "Gradle", "Implementation-Version": "1.0", "Main-Class": "com.rocketpush.FireworksConsole")
-        }
-    }   
-}
-
-dependsOnChildren()
