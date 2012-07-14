@@ -8,6 +8,5 @@ public interface Communication extends Closeable {
 
 	void send(Command command);
 	
-	@Override
 	void close();
 }

@@ -13,12 +13,10 @@ public class FakeCommunication implements Communication {
 		commands = new ArrayList<Command>();
 	}
 
-	@Override
 	public void send(Command command) {
 		addCommand(command);
 	}
 	
-	@Override
 	public void close() {
 	}
 	

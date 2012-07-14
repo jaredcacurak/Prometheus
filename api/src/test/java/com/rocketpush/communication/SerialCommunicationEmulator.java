@@ -39,12 +39,10 @@ public final class SerialCommunicationEmulator implements Communication {
 		new Thread(inputStreamReader, "EmulatorInputStream").start();
 	}
 
-	@Override
 	public void send(Command command) {
 		commandQueue.add(command);		
 	}
 
-	@Override
 	public void close() {
 		this.isConnected.set(false);
 		this.commPort.close();
@@ -116,7 +114,6 @@ public final class SerialCommunicationEmulator implements Communication {
 			this.outputStream = outputStream;
 		}
 
-		@Override
 		public void run() {
 			try {
 				while(isConnected.get()) {
@@ -144,7 +141,6 @@ public final class SerialCommunicationEmulator implements Communication {
 			this.interpreter = new EmulatorCommandInterpreter();
 		}
 
-		@Override
 		public void run() {
 			try {
 				while (isConnected.get()) {

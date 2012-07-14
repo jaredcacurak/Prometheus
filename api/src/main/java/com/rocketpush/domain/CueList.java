@@ -11,7 +11,6 @@ public class CueList {
 	public CueList() {
 		this.listOfCues = new ConcurrentSkipListSet<Cue>(new Comparator<Cue>() {
 
-			@Override
 			public int compare(Cue o1, Cue o2) {
 				return o2.getId() - o1.getId();
 			}
