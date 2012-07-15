@@ -1,20 +1,14 @@
 subprojects {
     apply plugin: 'java'
     apply plugin: 'eclipse'
-    
+
     repositories {
         mavenCentral()
     }
-    
+}
+subprojects {
     dependencies {
         compile 'org.rxtx:rxtx:2.+', 'com.google.guava:guava:r09'
         testCompile 'junit:junit:4.+'
     }
-	
-	version = '1.0'
-	
-	jar {
-		manifest.attributes provider: 'gradle'
-	}
 }
-
